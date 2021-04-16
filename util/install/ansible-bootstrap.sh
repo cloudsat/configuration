@@ -14,7 +14,7 @@
 set -xe
 
 if [[ -z "${ANSIBLE_REPO}" ]]; then
-  ANSIBLE_REPO="https://github.com/edx/ansible.git"
+  ANSIBLE_REPO="https://github.com/cloudsat/ansible.git"
 fi
 
 if [[ -z "${ANSIBLE_VERSION}" ]]; then
@@ -22,7 +22,7 @@ if [[ -z "${ANSIBLE_VERSION}" ]]; then
 fi
 
 if [[ -z "${CONFIGURATION_REPO}" ]]; then
-  CONFIGURATION_REPO="https://github.com/edx/configuration.git"
+  CONFIGURATION_REPO="https://github.com/cloudsat/configuration.git"
 fi
 
 if [[ -z "${CONFIGURATION_VERSION}" ]]; then
